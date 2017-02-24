@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'LatoLight';
+    src: url("fonts/Lato-Light.ttf");
+}
+
+@font-face {
+    font-family: 'LatoBold';
+    src: url("fonts/Lato-Bold.ttf");
+}
+
+body {
+    background: #ffffff url("images/fe_awakening_bg.jpg");
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    font-size: 100%;
+
+    color: #000000;
+    font-family: 'LatoLight', sans-serif;
+}
+
+.main-column {
+	text-align: justify;
+	font-size: 20px;
+    background: #ffffff;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.title-text {
+	font-family: 'LatoBold', sans-serif;
+    text-align: center;
+    color: #444444;
+}
+
+.section-text {
+	font-family: 'LatoBold', sans-serif;
+	text-align: center;
+    font-weight: bold;
+}
+
+.subsection-text {
+	font-family: 'LatoBold', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.game-info-section {
+	text-align: center;
+    clear: both;
+    margin-bottom: 0.5em;
+    color: #ffffff;
+}
+
+.field-text {
+	float: left;
+	padding-left: 250px;
+    font-weight: bold;
+	color: #444444;
+}
+
+.field-text-value {
+	float: right;
+	font-weight: normal;
+	color: #777777;
+	padding-right: 250px;
+}
+
+.screenshot {
+	text-align: center;
+}
+
+.screenshot-thumbnail {
+	height: 96px;
+}
+
+.game-tag-section {
+	text-align: right;
+}
+
+.game-tag-section .section-text {
+	text-align: right;
+	font-weight: bold;
+}
+
+.game-tag {
+	position: relative;
+    margin: 0px 0px 3px 5px;
+    font-weight: bold;
+    display: block;
+    line-height: 1.5em;
+    padding: 0 9px 0 8px;
+    color: #000000;
+    text-decoration: padding: 13px;
+    text-shadow: 0 1px white;
+}
+
+.game-tag-bg {
+	/*background: #bbbbbb;
+    border-width: 1px 1px 3px 1px;
+    border-style: solid;
+    border-color: #dadada #d2d2d2 #c5c5c5 #dadada; 
+    height: 1.6em;
+    width: auto;
+   	position: absolute;*/
+}
